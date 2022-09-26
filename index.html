@@ -13,6 +13,7 @@
 
     <!-- Link to my style sheet -->
     <link rel="stylesheet" href="index.css">
+    
 
     <!--The next three lines allow the Vega embed-->
     <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
@@ -27,25 +28,25 @@
     <div class="myWeek1">
         <h1>Data Science for Economists.</h1>
         
-        <h3>Covid-19</h3>
-        <p>The first chart tracks Covid-19 cases by UK region.</p>
-        <div class="chart" id="Chart1"></div>
+        <h3>Ether: Price vs Volume</h3>
+        <p>The first chart tracks the daily price versus the volume of etheruem.</p>
+        <div class="chart" id="Vis1"></div>
 
-        <h3>Productivity puzzle</h3>
-        <p>My second chart looks at productivity in the UK</p>
-        <div class="chart" id="Chart2"> </div>
+        <h3>Declining Populations</h3>
+        <p>My second chart looks at cumulative % change in population across 7 countries</p>
+        <div class="chart" id="Vis2"> </div>
     </div> 
 </body>
 
 
 <script>
     //Define charts:
-    var myChart1 = "chart1_covidUKRegions.json";
-    var myChart2 = "chart2_ukProductivity.json";
+    var myChart1 = "price vs volume.json";
+    var myChart2 = "declining populations.json";
 
     // Embed charts:
-    vegaEmbed('#Chart1', myChart1);
-    vegaEmbed('#Chart2', myChart2);
+    vegaEmbed('#Vis1', myChart1);
+    vegaEmbed('#Vis2', myChart2);
 </script>
 
 </html>
