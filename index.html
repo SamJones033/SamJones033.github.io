@@ -28,13 +28,23 @@
     <div class="myWeek1">
         <h1>Data Science for economists.</h1>
         
-        <h3>Ether: Price vs Volume</h3>
+        <h3>Week 1 - Ether: Price vs Volume</h3>
         <p>The first chart tracks the daily price versus the volume of etheruem.</p>
         <div class="chart" id="Vis1"></div>
+        
 
         <h3>Declining Populations</h3>
         <p>My second chart looks at cumulative % change in population across 7 countries</p>
         <div class="chart" id="Vis2"> </div>
+
+        <h3>Week 2 - IMF</h3>
+        <p>My third chart entails the outstanding credit levels of the IMF</p>
+        <div class="chart" id="Vis3"> </div>
+
+        <h3></h3>
+        <p>However, when we consider the outstanding credit levels as a % of world GDP, our graph begins to look very different.</p>
+        <p>As the IMF borrowed more in relation to GDP in 1984, this suggests it was riskier then and it would be more beneficial to borrow in 2022</p>
+        <div class="chart" id="Vis4"> </div>
     </div> 
 </body>
 
@@ -43,10 +53,23 @@
     //Define charts:
     var myChart1 = "price vs volume.json";
     var myChart2 = "declining populations.json";
-
+    var myChart3 = "IMF.json";
+    var myChart4 = "updated.json"
     // Embed charts:
     vegaEmbed('#Vis1', myChart1);
     vegaEmbed('#Vis2', myChart2);
+    vegaEmbed('#Vis3', myChart3);
+    vegaEmbed('#Vis4', myChart4)
+</script>
+
+<script>
+    //Define charts:
+    
+ 
+
+    // Embed charts:
+    
+    
 </script>
 
 </html>
