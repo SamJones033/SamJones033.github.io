@@ -12,7 +12,7 @@
     "url": "https://raw.githubusercontent.com/SamJones033/SamJones033.github.io/main/data_IMF_creditOutstanding.csv"
   },
   "height": 300,
-  "width": 1640,
+  "width": 240,
   "mark": {"type": "bar", "color": "#2b1d70"},
   "encoding": {
     "x": {
