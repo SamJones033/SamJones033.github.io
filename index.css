@@ -23,9 +23,9 @@ h1, h3, p{
     
 .myWeek1{
     margin: auto;
-    max-width: 600px;
+    max-width: 800px;
     background-color: rgb(33, 35, 34);
-    border-width: 3px;
+    border-width: 15px;
     border-style: none;
     border-radius: 10px;
     border-color: rgb(232,232,232);
@@ -43,7 +43,7 @@ h1, h3, p{
     border-radius: 20px;
     border-color: rgb(255, 255, 255);
     margin: 30px;
-    margin-left: 10%;
+    margin-left: 20%;
     margin-right: 10%;
     
     
@@ -51,5 +51,23 @@ h1, h3, p{
 
     
 }
-    
 
+
+#link1  {
+    background-color: rgb(255, 255, 255);
+    border:5px;
+    border-color:rgb(86, 84, 97);
+    border-style:solid;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:70;
+    color:black;
+
+    
+    
+    
+}
+
+
+
+    
