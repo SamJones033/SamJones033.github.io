@@ -23,7 +23,8 @@ h1, h3, p{
     
 .myWeek1{
     margin: auto;
-    max-width: 800px;
+    width: 100%;
+    height: auto;
     background-color: rgb(33, 35, 34);
     border-width: 15px;
     border-style: none;
@@ -43,8 +44,7 @@ h1, h3, p{
     border-radius: 20px;
     border-color: rgb(255, 255, 255);
     margin: 30px;
-    margin-left: 20%;
-    margin-right: 10%;
+    
     
     
     
