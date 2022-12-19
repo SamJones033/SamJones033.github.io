@@ -46,7 +46,7 @@
             },
             
           "color": {
-            "datum": "Volume",
+            
             "scale": {"range": ["blue", "red"]},
             "legend":{
               "orient": "top-left"}}}
@@ -70,7 +70,7 @@
             },
             
           "color": {
-            "datum": "Price",
+            
             "scale": {"range": ["orange", "hotpink"]},
             "legend":{
               "orient": "top-left"}}

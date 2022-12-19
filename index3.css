@@ -1,42 +1,205 @@
 /* Richard Davies, Data Science for Economists */
 
-/* This is my first proper css file */
+/* This is my second CSS file */
 
 
 /* Import a font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Ubuntu&display=swap');
+
+
+
 
 
 /* Set the background color for my page: */
+
+/* Book on colour = Joseph Albers - Interaction of Colour */
+
 body{
-    background-color: rgba(214, 202, 206, 0.512);
- 
+
+    background-color: rgb(79, 47, 65) ;
+    max-width: auto;
+    margin: auto;
 }
 
 
 /* Choose the appearance of the tags, h1, h3 and p: */
-h1, h3, p{
-    color:rgb(252, 255, 255);
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
+h1,h2, h3, p{
+    color:rgb(6, 8, 11);
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center
+
 }
-    
+
+
+
+.flash {
+    border: 2px solid red;
+    animation: flash 1s linear infinite;
+  }
+  
+  @keyframes flash {
+    0% { border-color: red; }
+    50% { border-color: transparent; }
+    100% { border-color: red; }
+  }
+  
+
 .myWeek1{
     margin: auto;
-    max-width: 600px;
-    background-color: rgb(33, 35, 34);
+    max-width: 900px;
+    max-height: 10000px;
+    background-color: rgb(189, 158, 45);
+
+      
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: rgb(30, 32, 31);
 }
 
 
 /* Set the apperance of the class, chart */
-.chart{
-    background-color: rgb(255, 255, 255);
-    width:440px;
-    border-width: 2px;
+.chart {
+    margin: auto;
+    width: 8px;
+    background-color: white;
+    width: 450px;
+    border-width: 5px;
     border-style: solid;
     border-radius: 10px;
-    border-color: rgb(0, 0, 0);
+    border-color: rgb(39, 59, 73);
+  }
+    
 
+
+.ChartDashboard{
+    margin: auto;
+    width: 8em;
+    background-color: white;
+    width: 350px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(15, 14, 14);
     
 }
+
+#Chart1{
+    margin: auto;
+    width: 8em;
+    background-color: white;
+    width: 400px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(15, 14, 14);
     
+}
+
+#Chart2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    background-color: white;
+    width: 400px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(15, 14, 14);
+}
+
+#Chart3{
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    background-color: white;
+    width: 400px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(15, 14, 14);
+}
+
+#Chart4{
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    background-color: white;
+    width: 400px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(15, 14, 14);
+}
+
+#Chart5{
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    background-color: white;
+    width: 400px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(15, 14, 14);
+}
+
+#Chart6{
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    background-color: white;
+    width: 450px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(15, 14, 14);
+}
+
+#Chart7{
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    background-color: white;
+    width: 450px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(15, 14, 14);
+}
+
+#Chart8{
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    background-color: white;
+    width: 450px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(15, 14, 14);
+}
+
+#Chart18{
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    background-color: white;
+    width: 600px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(15, 14, 14);
+}
+
+#Chart19{
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    background-color: white;
+    width: 600px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(15, 14, 14);
+}
