@@ -8,33 +8,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    
     <!-- Title for the page -->
     <title>Document</title>
 
     <!-- Link to my style sheet -->
     <link rel="stylesheet" href="index.css">
+
+    <link rel="icon" href="https://www.google.com/imgres?imgurl=http%3A%2F%2Fclipart-library.com%2Fimg1%2F1571270.png&imgrefurl=http%3A%2F%2Fclipart-library.com%2Feasy-globe-cliparts.html&tbnid=a-ZXUIL-RWn6IM&vet=12ahUKEwi6mI2j4ob8AhUQTRoKHb5bCN8QMygsegUIARDhAg..i&docid=JQUelH8bN2Zy7M&w=2400&h=2369&q=world%20globe%20&ved=2ahUKEwi6mI2j4ob8AhUQTRoKHb5bCN8QMygsegUIARDhAg">
     
 
     <!--The next three lines allow the Vega embed-->
     <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+    
 </head>
 
 
 
 <body>
     <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
-    <div class="myWeek1">
+    <div class="myWeek1" id="containerbutton">
         <h1>Data Science for Economists</h1>
 
         <a href="test.html" style="color: rgb(21, 148, 221)"><p/a>My Other Project's</p></a> 
+
         
         <h3>Week 1 - Ether: Price vs Volume</h3> 
-        <p>The first chart tracks the daily price versus the volume of ethereum.</p>
+        <p> The first chart tracks the daily price versus the volume of ethereum.</p>
         <div class="chart" id="Vis1"></div>
         
-
         <h3>Declining Populations</h3>
         <p>My second chart looks at cumulative % change in population across 7 countries</p>
         <div class="chart" id="Vis2"> </div>
@@ -50,8 +54,17 @@
         <div class="chart" id="Vis4"> </div>
 
         <h3>Week 3</h3>
+        <p>My third chart involves data that has been imported in using Python, and examines the inflation rate over the years in the UK</p>
+        <div class="chart" id="Vis5"> </div>
+
+        <h3>Week 4</h3>
+
+        <p>hello </p>
+
+        
     </div> 
 </body>
+
 
 
 <script>
@@ -60,11 +73,13 @@
     var myChart2 = "declining populations.json";
     var myChart3 = "IMF.json";
     var myChart4 = "updated.json"
+    var myChart5 = "myownchart.json"
     // Embed charts:
     vegaEmbed('#Vis1', myChart1);
     vegaEmbed('#Vis2', myChart2);
     vegaEmbed('#Vis3', myChart3);
-    vegaEmbed('#Vis4', myChart4)
+    vegaEmbed('#Vis4', myChart4);
+    vegaEmbed('#Vis5', myChart5)
 </script>
 
 <script>

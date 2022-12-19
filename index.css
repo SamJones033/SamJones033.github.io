@@ -34,16 +34,23 @@ h1, h3, p{
     margin-right:auto;
 }
 
+#containerbutton{
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+}
 
 /* Set the apperance of the class, chart */
 .chart{
     background-color: rgb(255, 255, 255);
-    width:480px;
+    width:auto px;
     border-width: 10px;
     border-style: solid;
     border-radius: 20px;
     border-color: rgb(255, 255, 255);
     margin: 30px;
+    
     
     
     
