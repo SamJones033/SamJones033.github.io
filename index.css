@@ -9,7 +9,7 @@
 
 /* Set the background color for my page: */
 body{
-    background-color: rgba(230, 13, 85, 0.512);
+    background-color: rgba(85, 17, 222, 0.512);
  
 }
 
@@ -20,6 +20,115 @@ h1, h3, p{
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
+
+/* One column*/
+@media only screen and (min-width: 250px) {
+    .grid_items {
+      grid-template-columns: 100%;
+      max-width: 420px; 
+      margin: 0 auto 0 auto !important;
+      padding: 0 5 0 5; 
+      grid-column-gap: 10px;
+      grid-row-gap: 40px;
+      text-align: center;
+    }
+  
+    .wrap {
+      grid-template-columns: 100%;
+      max-width: 360px; 
+      margin: 0 auto 0 auto !important;
+        padding: 0 5 0 5; 
+      grid-column-gap: 10px;
+      grid-row-gap: 40px;
+      text-align: center;
+    }
+    .grid_items > div {
+      padding: 10px;
+    }
+    .rubric {
+      text-align: left;
+    }
+  
+  
+  }
+  
+  
+  
+  
+  /* Two columns*/
+  @media only screen and (min-width: 900px) {
+    .grid_items, .wrap {
+      grid-template-columns: 47.5% 47.5%;
+      max-width: 880px; 
+      margin: 0 auto 0 auto !important;
+      padding: 0 5 0 5; 
+      grid-column-gap: 10px;
+      grid-row-gap: 40px;
+      text-align: left;
+    }
+    .grid_items > div {
+      padding: 10px;
+    }
+  }
+  
+  
+  /* Three columns*/
+  @media only screen and (min-width: 1400px) {
+    .grid_items, .wrap {
+      grid-template-columns: 30% 30% 30%;
+      max-width: 1400px; 
+      margin: 0 auto 0 auto !important;
+      padding: 0 5 0 5; 
+      grid-column-gap: 20px;
+      grid-row-gap: 50px;
+    }
+    
+    .grid_items > div {
+      padding: 10px;
+    }
+  }
+  
+  
+  /* Four columns*/
+  @media only screen and (min-width: 1800px) {
+    .grid_items, .wrap {
+      grid-template-columns: 25% 25% 25% 25%;
+      max-width: 1900px; 
+      margin: 0 auto 0 auto !important;
+      padding: 0 5 0 5; 
+      grid-column-gap: 20px;
+      grid-row-gap: 50px;
+    }
+    .grid_items > div {
+      padding: 10px;
+    }
+  }
+  
+  
+  
+  
+  ul {
+      font-size: 18px;
+      margin: 5px 5px;
+      line-height: 22.4px;
+      color: #323232;
+  }
+  
+  ul.a {
+    list-style-type: circle;
+  }
+  
+  ul.b {
+    list-style-type: square;
+  }
+  
+  ul, ol {
+      margin: 5px 5px;
+      padding: 0;
+  }
+  ul li {
+     list-style-position: inside;
+  }
     
 .myWeek1{
     margin: auto;
@@ -32,6 +141,7 @@ h1, h3, p{
     border-color: rgb(232,232,232);
     margin-left:auto;
     margin-right:auto;
+    
 }
 
 #containerbutton{
@@ -69,6 +179,7 @@ h1, h3, p{
     font-family: 'Roboto', sans-serif;
     font-weight:70;
     color:black;
+    box-shadow: 10px 8px 0px rgb(191 219 254);
 
     
     
@@ -76,3 +187,5 @@ h1, h3, p{
 }
 
 
+
+    
