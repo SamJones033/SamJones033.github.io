@@ -25,11 +25,11 @@ Column1,iso,country,value,total,continent
 25,CMR,Thailand,1.533835584,5.05947E+11,Asia
 26,COL,Turkiye,11.35349641,8.19035E+11,Asia
 27,CRI,United Kingdom,7.524910374,3.13138E+12,Europe
-28,,South Africa,4.9,4.90033E+12,
-29,,Nigeria,3.6,5.93745E+11,
-30,,Ghana,5.4,3.93445E+11,
-31,,Egypt,3.3,3.65493E+11,
-32,,Brazil,4.6,1.83438E+12,
-33,,Argentina,10.4,4.87445E+11,
-34,,Colombia,10.7,3.14035E+11,
-45,,Ecuador,4.2,1.06035E+11,
+28,,South Africa,4.9,4.90033E+12,Africa
+29,,Nigeria,3.6,5.93745E+11,Africa
+30,,Ghana,5.4,3.93445E+11,Africa
+31,,Egypt,3.3,3.65493E+11,Africa
+32,,Brazil,4.6,1.83438E+12,South America
+33,,Argentina,10.4,4.87445E+11,South America
+34,,Colombia,10.7,3.14035E+11,South America
+45,,Ecuador,4.2,1.06035E+11,South America
