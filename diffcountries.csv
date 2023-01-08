@@ -5,7 +5,6 @@ Column1,iso,country,value,total,continent
 3,ARG,Belize,15.22613065,5.94104E+11,North America
 4,ARM,British Virgin Islands,5.843934342,1.60898E+12,North America
 5,AUS,Canada,4.540887309,1.98834E+12,North America
-6,AUT,China,8.109792581,1.77341E+13,Asia
 7,AZE,France,6.816589136,2.95788E+12,Europe
 9,BEL,Germany,2.626987267,4.25993E+12,Europe
 10,BFA,India,8.681228731,3.1763E+12,Asia
@@ -26,4 +25,3 @@ Column1,iso,country,value,total,continent
 25,CMR,Thailand,1.533835584,5.05947E+11,Asia
 26,COL,Turkiye,11.35349641,8.19035E+11,Asia
 27,CRI,United Kingdom,7.524910374,3.13138E+12,Europe
-28,CYP,United States,5.945484761,2.33151E+13,North America
