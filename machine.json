@@ -1,0 +1,35 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Three graphs from yahoo finance",
+      "subtitle": [
+        "The prices of gold, silver and the Pound to the Dollar"
+      ],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/SamJones033/SamJones033.github.io/main/week11done.csv"
+    },
+    "repeat": {"layer": ["GBPUSD=X_z_norm", "SI=F_z_norm", "GC=F_z_norm"]},
+    "spec": {
+      "height": 300,
+      "width": 200,
+      "mark": {"type": "line", "strokeWidth": 1},
+      "encoding": {
+        "x": {"field": "Date", "type": "temporal"},
+        "y": {
+          "field": {"repeat": "layer"},
+          "type": "quantitative",
+          "title": "% change"
+        },
+        "color": {
+          "datum": {"repeat": "layer"},
+          "scale": {"range": ["#FFD500", "#009B00", "#012973", "#77E3E7"]},
+          "legend": "object"
+        }
+      }
+    }
+  }

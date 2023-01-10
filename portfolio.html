@@ -58,7 +58,7 @@
     
 
       <p class=title1><span class="bold">Week 1 - Getting Started</span></p>
-      <p class="text-center">The daily price of ethereum and the cumulative changes in population over 7 different countries</p>
+      <p class="text-center">The total level of foreign direct invest in the UK and the growth of women's football.</p>
       <div class="container">
         
         <!--First graphs-->
@@ -244,6 +244,13 @@
                 </script>
             </div>
 
+            <div class="chart" id="Vis50">
+              <script>
+                  var myChart50 = "worldmap2.json";
+                  vegaEmbed('#chart50', myChart50);
+              </script>
+          </div>
+
         </div>
 
         <p class=title1><span class="bold">Week 8 - Festival of Economics</span></p>
@@ -294,6 +301,35 @@
         </div>
 
         <p class=title1><span class="bold">Week 10 - Machine Learning</span></p>
+
+        <p class="text-center">Here I have made 2 charts with the aid of machine learning. The first shows the changes in price of gold, silver and the pound to the dollar.</p>   
+        <div class="container">
+
+            <div class="chart" id="Vis33">
+                <script>
+                    var myChart30 = "machine.json";
+                    vegaEmbed('#chart33', myChart33);
+                </script>
+            </div>
+
+        </div>
+        
+        <p class=title1><span class="bold">Week 11 - Machine Learning part 2</span></p>
+
+        <p class="text-center">My second machine learnt graph shows the relationship between shoe size and adult height. <p class="text-center"> <a href="https://colab.research.google.com/drive/19iONiuuYfuQ7k8TIQddnvi_02vQm7Cmr#scrollTo=L35-adZ24O_Q" style="color: rgb(21, 148, 221)">Here</a> is a colab link to the code that was used for this</p> </p>
+        <div class="container">
+
+        
+
+
+          <img src="shoeheight.png" alt="Predicting height with shoe size" width="600" height="375">
+
+          
+        
+        </div>
+        
+
+
 
         <div>
             
@@ -347,6 +383,8 @@
     var myChart37 = "festival2.json"
     var myChart30 = "simple2.json"
     var myChart32 = "colours2.json"
+    var myChart50 = "worldmap2.json"
+    var myChart33 = "machine.json"
     // Embed charts:
     vegaEmbed('#Vis1', myChart1);
     vegaEmbed('#Vis2', myChart2);
@@ -370,7 +408,9 @@
     vegaEmbed('#Vis36', myChart36);
     vegaEmbed('#Vis37', myChart37);
     vegaEmbed('#Vis30', myChart30);
-    vegaEmbed('#Vis31', myChart31)
+    vegaEmbed('#Vis31', myChart31);
+    vegaEmbed('#Vis50', myChart50);
+    vegaEmbed('#Vis33', myChart33)
 
 </script>
 

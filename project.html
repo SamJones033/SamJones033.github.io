@@ -39,10 +39,10 @@
         <nav>
           <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
             <li class="active">
-              <a class="a-nav" href="https://samjones033.github.io">Main Page</a>
+              <a class="a-nav" href="https://samjones033.github.io/portfolio">Main Page</a>
             </li>
             <li>
-              <a class="a-nav" href="project.html">Project</a>
+              <a class="a-nav" href="https://samjones033.github.io/project">Project</a>
             </li>
             <li>
                 <a class="a-nav" href="https://rapidcharts.io/datascience">Course Website</a>
@@ -75,26 +75,26 @@
          </div>
     </div>
     <p class="text-center">I compiled this data by user a scraper for world bank data to convert into an API. I utilised the loop feature in order to get the countries of my choice. The only error I faced here was when I incorrectly labelled Germany as "GER" opposed to it's correct form as "DEU". After I had noticed this error then the code worked as it should.</p>
-    <p class=title1><span class="bold">Week 2 - IMF</span></p>
+    <p class=title1><span class="bold">Can we use the USA as a reference for the world?</span></p>
 
-        <p class="text-center">USING USA AS A BASE REFERENCE</p>   
+        <p class="text-center">As we can see in the above graph, the USA leads the world in almost every economic variable. As a result of this, I have produced a trellis chart that shows the American values for multiple different variables. </p>   
         <div class="container">
         
         <!--week 2 graph-->
         
 
-            <div class="chart" id="Vis20">
+            <div class="chart2" id="Vis20">
                 <script>
-                    var myChart20 = "usainflation.json";
+                    var myChart20 = "trellis.json";
                     vegaEmbed('#chart20', myChart20);
                 </script>
             </div>
 
     </div>
 
-    <p class=title1><span class="bold">scatter plot</span></p>
+    <p class=title1><span class="bold">GDP Over The Years</span></p>
 
-      <p class="text-center">scatter plot</p>   
+      <p class="text-center">The below graph shows GDP changes over the years relative to the years that is selected from the slider beneath. We can see that countries such as the USA are leaders in GDP, but there are many countries that are significantly poorer. It is important to note that the geographical size of a country does not always mean higher GDP.</p>   
       <p class="text-center">One difficulty I faced here was that some variable names for countries such as the USA were different between each data set that I used ("The United States" vs "The United States of America" for example). I overcame this by cleaning the data in order to ensure all variable names matched so the code work. There is also the issue of missing data for some central African countries which I was unable to find data for.</p> 
       <div class="container">
       
@@ -107,15 +107,17 @@
                   vegaEmbed('#chart21', myChart21);
               </script>
           </div>
+
+          
     </div>
 
 
     <div>
-      <p class=title1><span class="bold">scatter plot</span></p>
+      <p class=title1><span class="bold">What are the relations between a countries GDP and inflation?</span></p>
 
-      <p class="text-center">I have next used inflation data and total GDP data for a random selection of countries to attmept to analyse whether the size of a country effects the amount it is able to grow. There is a substantial variation which can be shown in the 0.06 R² value. However, we can see that with countries such as Belize and Ireland, that it is likely that smaller countries are to have higher inflation rates. By reversing this, this can tell us that larger economies, such as Japan, have lower inflation rates. This suggets that bigger economies are less susceptible to uncontrollable inflation. As discussed previously, we know the G7 "bigger" countries have a greater influence on world markets; so this suggests against there being a global recession any time soon.</p>   
+      <p class="text-center">I have next used inflation data and total GDP data for a random selection of countries to attempt to analyse whether the size of a country effects the amount it is able to grow. There is a substantial variation which can be shown in the 0.06 R² value. However, we can see that with countries such as Belize and Ireland, that it is likely that smaller countries are to have higher inflation rates. By reversing this, this can tell us that larger economies, such as Japan, have lower inflation rates. This suggests that bigger economies are less susceptible to uncontrollable inflation. As discussed previously, we know the G7 "bigger" countries have a greater influence on world markets; so this suggests against there being a global recession any time soon.</p>   
       
-      <p class="text-center">This graph was encoded by data scraping the World Bank and then converted into an API. This APi was then used to create the graph. I have included a key for different continents as well as the ability to hover over a point to see the country, total GDP and inflation rate. I have also encoded a line of best fit through the data.</p>
+      <p class="text-center">This graph was encoded by data scraping the World Bank and then converted into an API. This API was then used to create the graph. I have included a key for different continents as well as the ability to hover over a point to see the country, total GDP and inflation rate. I have also encoded a line of best fit through the data.</p>
       
       <div class="container">
       
@@ -131,7 +133,7 @@
     </div>
 
     <div>
-      <p class=title1><span class="bold">scatter plot</span></p>
+      <p class=title1><span class="bold">Are there any other fields we can measure with?</span></p>
 
       <p class="text-center">Happiness and economic growth are often thought to be correlated, but the relationship between the two is complex and can vary depending on a number of factors. Some research suggests that as countries become wealthier, their citizens tend to become happier, at least up to a certain point. This relationship is often referred to as the <a href="https://www.iza.org/publications/dp/13923/the-easterlin-paradox" style="color: rgb(21, 148, 221)" >Easterlin Paradox </a>, named after economist Richard Easterlin, who first identified it.</p>   
       
@@ -150,9 +152,11 @@
           </div>
     </div>
 
+    <p class="text-center">The main problems I have encountered in creating this project has been in relation to data cleaning. I have combined data sets from various sources which have had different variable names for the same variable, so have had to clean this manually. I have also had to deal with cleaning data formatting to ensure it works properly as an api.</p>
 
+    <p class=title1><span class="bold">Conclusion</span></p>
 
-
+    <p class="text-center">For the time being, I think it's safe to assume that a global recession isn't around the corner. Key metrics point against this, however it is impossible to fully confidently project the future. Data created during the covid pandemic may have suggested that a global recession is imminent, but a strong global recovery has halted this. for now at least.</p>
 
 
 
@@ -176,10 +180,11 @@
 <script>
 var myChart0 = "continentchart.json"
 var myChart19 = "project2.json"
-var myChart20 = "usainflation.json"
+var myChart20 = "trellis.json"
 var myChart21 = "worldmap.json"
 var myChart28 = "simple.json"
 var myChart29 = "colours.json"
+
 
 
 

@@ -17,12 +17,12 @@
   "encoding": {
     "x": {
       "field": "Date",
-      "type": "nominal",
+      "type": "ordinal",
       "axis": {
         "title": null,
         "grid": false,
         "ticks": false,
-        "labelAngle": 45
+        "labelAngle": 90
         
       }
       
