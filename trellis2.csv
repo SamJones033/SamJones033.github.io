@@ -1,0 +1,601 @@
+Year,Type,Value
+1960,GDP (Total US$),5.433E+11
+1961,GDP (Total US$),5.633E+11
+1962,GDP (Total US$),6.051E+11
+1963,GDP (Total US$),6.386E+11
+1964,GDP (Total US$),6.858E+11
+1965,GDP (Total US$),7.437E+11
+1966,GDP (Total US$),8.15E+11
+1967,GDP (Total US$),8.617E+11
+1968,GDP (Total US$),9.425E+11
+1969,GDP (Total US$),1.0199E+12
+1970,GDP (Total US$),1.0733E+12
+1971,GDP (Total US$),1.16485E+12
+1972,GDP (Total US$),1.27911E+12
+1973,GDP (Total US$),1.42538E+12
+1974,GDP (Total US$),1.54524E+12
+1975,GDP (Total US$),1.6849E+12
+1976,GDP (Total US$),1.87341E+12
+1977,GDP (Total US$),2.08183E+12
+1978,GDP (Total US$),2.3516E+12
+1979,GDP (Total US$),2.62733E+12
+1980,GDP (Total US$),2.85731E+12
+1981,GDP (Total US$),3.20704E+12
+1982,GDP (Total US$),3.34379E+12
+1983,GDP (Total US$),3.63404E+12
+1984,GDP (Total US$),4.03761E+12
+1985,GDP (Total US$),4.33898E+12
+1986,GDP (Total US$),4.57963E+12
+1987,GDP (Total US$),4.85522E+12
+1988,GDP (Total US$),5.23644E+12
+1989,GDP (Total US$),5.64158E+12
+1990,GDP (Total US$),5.96314E+12
+1991,GDP (Total US$),6.15813E+12
+1992,GDP (Total US$),6.52033E+12
+1993,GDP (Total US$),6.85856E+12
+1994,GDP (Total US$),7.28724E+12
+1995,GDP (Total US$),7.63975E+12
+1996,GDP (Total US$),8.07312E+12
+1997,GDP (Total US$),8.57755E+12
+1998,GDP (Total US$),9.06282E+12
+1999,GDP (Total US$),9.63117E+12
+2000,GDP (Total US$),1.02509E+13
+2001,GDP (Total US$),1.05819E+13
+2002,GDP (Total US$),1.09291E+13
+2003,GDP (Total US$),1.14564E+13
+2004,GDP (Total US$),1.22172E+13
+2005,GDP (Total US$),1.30392E+13
+2006,GDP (Total US$),1.38156E+13
+2007,GDP (Total US$),1.44742E+13
+2008,GDP (Total US$),1.47699E+13
+2009,GDP (Total US$),1.44781E+13
+2010,GDP (Total US$),1.5049E+13
+2011,GDP (Total US$),1.55997E+13
+2012,GDP (Total US$),1.6254E+13
+2013,GDP (Total US$),1.68432E+13
+2014,GDP (Total US$),1.75507E+13
+2015,GDP (Total US$),1.8206E+13
+2016,GDP (Total US$),1.86951E+13
+2017,GDP (Total US$),1.94773E+13
+2018,GDP (Total US$),2.05331E+13
+2019,GDP (Total US$),2.1381E+13
+2020,GDP (Total US$),2.10605E+13
+2021,GDP (Total US$),2.33151E+13
+1960,Inflation Rate (%),1.457975986
+1961,Inflation Rate (%),1.070724148
+1962,Inflation Rate (%),1.198773348
+1963,Inflation Rate (%),1.239669421
+1964,Inflation Rate (%),1.278911565
+1965,Inflation Rate (%),1.585169264
+1966,Inflation Rate (%),3.015075377
+1967,Inflation Rate (%),2.772785623
+1968,Inflation Rate (%),4.271796153
+1969,Inflation Rate (%),5.4623862
+1970,Inflation Rate (%),5.838255338
+1971,Inflation Rate (%),4.292766688
+1972,Inflation Rate (%),3.272278247
+1973,Inflation Rate (%),6.177760064
+1974,Inflation Rate (%),11.0548048
+1975,Inflation Rate (%),9.143146865
+1976,Inflation Rate (%),5.744812635
+1977,Inflation Rate (%),6.501683995
+1978,Inflation Rate (%),7.630963839
+1979,Inflation Rate (%),11.25447113
+1980,Inflation Rate (%),13.54920197
+1981,Inflation Rate (%),10.33471534
+1982,Inflation Rate (%),6.131427
+1983,Inflation Rate (%),3.212435233
+1984,Inflation Rate (%),4.300535475
+1985,Inflation Rate (%),3.545644152
+1986,Inflation Rate (%),1.898047722
+1987,Inflation Rate (%),3.664563218
+1988,Inflation Rate (%),4.077741107
+1989,Inflation Rate (%),4.82700303
+1990,Inflation Rate (%),5.39795644
+1991,Inflation Rate (%),4.234963965
+1992,Inflation Rate (%),3.028819678
+1993,Inflation Rate (%),2.951656966
+1994,Inflation Rate (%),2.607441592
+1995,Inflation Rate (%),2.805419689
+1996,Inflation Rate (%),2.9312042
+1997,Inflation Rate (%),2.337689937
+1998,Inflation Rate (%),1.552279099
+1999,Inflation Rate (%),2.188027197
+2000,Inflation Rate (%),3.376857271
+2001,Inflation Rate (%),2.826171119
+2002,Inflation Rate (%),1.586031627
+2003,Inflation Rate (%),2.270094973
+2004,Inflation Rate (%),2.677236693
+2005,Inflation Rate (%),3.392746845
+2006,Inflation Rate (%),3.225944101
+2007,Inflation Rate (%),2.852672482
+2008,Inflation Rate (%),3.839100297
+2009,Inflation Rate (%),-0.355546266
+2010,Inflation Rate (%),1.640043442
+2011,Inflation Rate (%),3.156841569
+2012,Inflation Rate (%),2.069337265
+2013,Inflation Rate (%),1.464832656
+2014,Inflation Rate (%),1.622222977
+2015,Inflation Rate (%),0.118627136
+2016,Inflation Rate (%),1.261583206
+2017,Inflation Rate (%),2.130110004
+2018,Inflation Rate (%),2.442583297
+2019,Inflation Rate (%),1.812210075
+2020,Inflation Rate (%),1.233584396
+2021,Inflation Rate (%),4.697858864
+1991,Unemployment Rate (%),6.800000191
+1992,Unemployment Rate (%),7.5
+1993,Unemployment Rate (%),6.900000095
+1994,Unemployment Rate (%),6.119999886
+1995,Unemployment Rate (%),5.650000095
+1996,Unemployment Rate (%),5.449999809
+1997,Unemployment Rate (%),5
+1998,Unemployment Rate (%),4.510000229
+1999,Unemployment Rate (%),4.21999979
+2000,Unemployment Rate (%),3.99000001
+2001,Unemployment Rate (%),4.730000019
+2002,Unemployment Rate (%),5.78000021
+2003,Unemployment Rate (%),5.989999771
+2004,Unemployment Rate (%),5.53000021
+2005,Unemployment Rate (%),5.079999924
+2006,Unemployment Rate (%),4.619999886
+2007,Unemployment Rate (%),4.619999886
+2008,Unemployment Rate (%),5.78000021
+2009,Unemployment Rate (%),9.25
+2010,Unemployment Rate (%),9.630000114
+2011,Unemployment Rate (%),8.949999809
+2012,Unemployment Rate (%),8.069999695
+2013,Unemployment Rate (%),7.369999886
+2014,Unemployment Rate (%),6.170000076
+2015,Unemployment Rate (%),5.28000021
+2016,Unemployment Rate (%),4.869999886
+2017,Unemployment Rate (%),4.360000134
+2018,Unemployment Rate (%),3.900000095
+2019,Unemployment Rate (%),3.670000076
+2020,Unemployment Rate (%),8.050000191
+2021,Unemployment Rate (%),5.464000225
+1960,Fish Production (metric tonnes),2819044
+1961,Fish Production (metric tonnes),2954551
+1962,Fish Production (metric tonnes),3007924
+1963,Fish Production (metric tonnes),2777749
+1964,Fish Production (metric tonnes),2643835
+1965,Fish Production (metric tonnes),2782558
+1966,Fish Production (metric tonnes),2556493
+1967,Fish Production (metric tonnes),2439025
+1968,Fish Production (metric tonnes),2542058
+1969,Fish Production (metric tonnes),2555898
+1970,Fish Production (metric tonnes),2962979
+1971,Fish Production (metric tonnes),3050820
+1972,Fish Production (metric tonnes),2946225
+1973,Fish Production (metric tonnes),2978682
+1974,Fish Production (metric tonnes),3053006
+1975,Fish Production (metric tonnes),3065741
+1976,Fish Production (metric tonnes),3272174
+1977,Fish Production (metric tonnes),3211927
+1978,Fish Production (metric tonnes),3636483
+1979,Fish Production (metric tonnes),3722375
+1980,Fish Production (metric tonnes),3871666
+1981,Fish Production (metric tonnes),3931248.08
+1982,Fish Production (metric tonnes),4214408.04
+1983,Fish Production (metric tonnes),4421466.11
+1984,Fish Production (metric tonnes),5048228.24
+1985,Fish Production (metric tonnes),5043440.52
+1986,Fish Production (metric tonnes),5253141
+1987,Fish Production (metric tonnes),6077501
+1988,Fish Production (metric tonnes),6028322.96
+1989,Fish Production (metric tonnes),5860605.33
+1990,Fish Production (metric tonnes),5936132.44
+1991,Fish Production (metric tonnes),5607652.16
+1992,Fish Production (metric tonnes),5688778.38
+1993,Fish Production (metric tonnes),6025070.74
+1994,Fish Production (metric tonnes),6043959.56
+1995,Fish Production (metric tonnes),5622646
+1996,Fish Production (metric tonnes),5462704
+1997,Fish Production (metric tonnes),5594191
+1998,Fish Production (metric tonnes),5290998
+1999,Fish Production (metric tonnes),5441932
+2000,Fish Production (metric tonnes),5245362
+2001,Fish Production (metric tonnes),5486918
+2002,Fish Production (metric tonnes),5497389
+2003,Fish Production (metric tonnes),5532897
+2004,Fish Production (metric tonnes),5599950
+2005,Fish Production (metric tonnes),5476042
+2006,Fish Production (metric tonnes),5407735
+2007,Fish Production (metric tonnes),5326417
+2008,Fish Production (metric tonnes),4875380
+2009,Fish Production (metric tonnes),4710695
+2010,Fish Production (metric tonnes),4893643
+2011,Fish Production (metric tonnes),5531951
+2012,Fish Production (metric tonnes),5501352
+2013,Fish Production (metric tonnes),5488999
+2014,Fish Production (metric tonnes),5364657
+2015,Fish Production (metric tonnes),5417772.5
+2016,Fish Production (metric tonnes),5293143.5
+2017,Fish Production (metric tonnes),5473276
+2018,Fish Production (metric tonnes),5268887.39
+2019,Fish Production (metric tonnes),5314710.71
+2020,Fish Production (metric tonnes),4701770.61
+1961,Crop Production Index (2014-2016=100),36.9
+1962,Crop Production Index (2014-2016=100),37.2
+1963,Crop Production Index (2014-2016=100),38.71
+1964,Crop Production Index (2014-2016=100),37.23
+1965,Crop Production Index (2014-2016=100),40.77
+1966,Crop Production Index (2014-2016=100),40.08
+1967,Crop Production Index (2014-2016=100),42.46
+1968,Crop Production Index (2014-2016=100),43.8
+1969,Crop Production Index (2014-2016=100),44.38
+1970,Crop Production Index (2014-2016=100),42.19
+1971,Crop Production Index (2014-2016=100),48.34
+1972,Crop Production Index (2014-2016=100),47.93
+1973,Crop Production Index (2014-2016=100),51.42
+1974,Crop Production Index (2014-2016=100),46.97
+1975,Crop Production Index (2014-2016=100),53.38
+1976,Crop Production Index (2014-2016=100),53.26
+1977,Crop Production Index (2014-2016=100),57.74
+1978,Crop Production Index (2014-2016=100),58.52
+1979,Crop Production Index (2014-2016=100),64.95
+1980,Crop Production Index (2014-2016=100),58.56
+1981,Crop Production Index (2014-2016=100),67.35
+1982,Crop Production Index (2014-2016=100),67.98
+1983,Crop Production Index (2014-2016=100),49.84
+1984,Crop Production Index (2014-2016=100),64.34
+1985,Crop Production Index (2014-2016=100),68.61
+1986,Crop Production Index (2014-2016=100),62.61
+1987,Crop Production Index (2014-2016=100),62.54
+1988,Crop Production Index (2014-2016=100),53.09
+1989,Crop Production Index (2014-2016=100),62.67
+1990,Crop Production Index (2014-2016=100),67.17
+1991,Crop Production Index (2014-2016=100),65.11
+1992,Crop Production Index (2014-2016=100),73.53
+1993,Crop Production Index (2014-2016=100),62.86
+1994,Crop Production Index (2014-2016=100),78.65
+1995,Crop Production Index (2014-2016=100),67.22
+1996,Crop Production Index (2014-2016=100),74.56
+1997,Crop Production Index (2014-2016=100),78.1
+1998,Crop Production Index (2014-2016=100),77.55
+1999,Crop Production Index (2014-2016=100),77.8
+2000,Crop Production Index (2014-2016=100),79.88
+2001,Crop Production Index (2014-2016=100),77.73
+2002,Crop Production Index (2014-2016=100),74.57
+2003,Crop Production Index (2014-2016=100),77.93
+2004,Crop Production Index (2014-2016=100),87.3
+2005,Crop Production Index (2014-2016=100),84.04
+2006,Crop Production Index (2014-2016=100),80.84
+2007,Crop Production Index (2014-2016=100),86.81
+2008,Crop Production Index (2014-2016=100),86.09
+2009,Crop Production Index (2014-2016=100),89.74
+2010,Crop Production Index (2014-2016=100),89.55
+2011,Crop Production Index (2014-2016=100),87
+2012,Crop Production Index (2014-2016=100),85.99
+2013,Crop Production Index (2014-2016=100),92.94
+2014,Crop Production Index (2014-2016=100),97.81
+2015,Crop Production Index (2014-2016=100),95.48
+2016,Crop Production Index (2014-2016=100),106.71
+2017,Crop Production Index (2014-2016=100),100.52
+2018,Crop Production Index (2014-2016=100),100.22
+2019,Crop Production Index (2014-2016=100),94.5
+2020,Crop Production Index (2014-2016=100),99.15
+1960,Military Spending $,47346552670
+1961,Military Spending $,49879770605
+1962,Military Spending $,54650942605
+1963,Military Spending $,54561215775
+1964,Military Spending $,53432327058
+1965,Military Spending $,54561791263
+1966,Military Spending $,66442751527
+1967,Military Spending $,78398442241
+1968,Military Spending $,84329031218
+1969,Military Spending $,84990165431
+1970,Military Spending $,83407993005
+1971,Military Spending $,78237979893
+1972,Military Spending $,80708070966
+1973,Military Spending $,81469794408
+1974,Military Spending $,89278920340
+1975,Military Spending $,92080928754
+1976,Military Spending $,94715251080
+1977,Military Spending $,1.04665E+11
+1978,Military Spending $,1.13382E+11
+1979,Military Spending $,1.2688E+11
+1980,Military Spending $,1.43688E+11
+1981,Military Spending $,1.76559E+11
+1982,Military Spending $,2.21674E+11
+1983,Military Spending $,2.23427E+11
+1984,Military Spending $,2.45149E+11
+1985,Military Spending $,2.72163E+11
+1986,Military Spending $,2.95546E+11
+1987,Military Spending $,3.04087E+11
+1988,Military Spending $,3.09661E+11
+1989,Military Spending $,3.21867E+11
+1990,Military Spending $,3.25129E+11
+1991,Military Spending $,2.99373E+11
+1992,Military Spending $,3.25034E+11
+1993,Military Spending $,3.16719E+11
+1994,Military Spending $,3.08084E+11
+1995,Military Spending $,2.95853E+11
+1996,Military Spending $,2.87961E+11
+1997,Military Spending $,2.93168E+11
+1998,Military Spending $,2.90996E+11
+1999,Military Spending $,2.98095E+11
+2000,Military Spending $,3.20086E+11
+2001,Military Spending $,3.31806E+11
+2002,Military Spending $,3.78463E+11
+2003,Military Spending $,4.40532E+11
+2004,Military Spending $,4.92999E+11
+2005,Military Spending $,5.33203E+11
+2006,Military Spending $,5.58335E+11
+2007,Military Spending $,5.89586E+11
+2008,Military Spending $,6.56756E+11
+2009,Military Spending $,7.05917E+11
+2010,Military Spending $,7.38005E+11
+2011,Military Spending $,7.52288E+11
+2012,Military Spending $,7.25205E+11
+2013,Military Spending $,6.79229E+11
+2014,Military Spending $,6.47789E+11
+2015,Military Spending $,6.3383E+11
+2016,Military Spending $,6.39856E+11
+2017,Military Spending $,6.46753E+11
+2018,Military Spending $,6.82491E+11
+2019,Military Spending $,7.34344E+11
+2020,Military Spending $,7.78397E+11
+2021,Military Spending $,8.00672E+11
+1990,Emissions (kg per PPP $ of GDP),0.812410366
+1991,Emissions (kg per PPP $ of GDP),0.780675429
+1992,Emissions (kg per PPP $ of GDP),0.748371976
+1993,Emissions (kg per PPP $ of GDP),0.728317712
+1994,Emissions (kg per PPP $ of GDP),0.695299288
+1995,Emissions (kg per PPP $ of GDP),0.669791638
+1996,Emissions (kg per PPP $ of GDP),0.653215695
+1997,Emissions (kg per PPP $ of GDP),0.646262292
+1998,Emissions (kg per PPP $ of GDP),0.616865513
+1999,Emissions (kg per PPP $ of GDP),0.582381724
+2000,Emissions (kg per PPP $ of GDP),0.563441547
+2001,Emissions (kg per PPP $ of GDP),0.543214718
+2002,Emissions (kg per PPP $ of GDP),0.511755145
+2003,Emissions (kg per PPP $ of GDP),0.493957043
+2004,Emissions (kg per PPP $ of GDP),0.469689719
+2005,Emissions (kg per PPP $ of GDP),0.441245674
+2006,Emissions (kg per PPP $ of GDP),0.409181318
+2007,Emissions (kg per PPP $ of GDP),0.396312692
+2008,Emissions (kg per PPP $ of GDP),0.376332658
+2009,Emissions (kg per PPP $ of GDP),0.356154652
+2010,Emissions (kg per PPP $ of GDP),0.358304379
+2011,Emissions (kg per PPP $ of GDP),0.331646812
+2012,Emissions (kg per PPP $ of GDP),0.304913777
+2013,Emissions (kg per PPP $ of GDP),0.302323954
+2014,Emissions (kg per PPP $ of GDP),0.290997837
+2015,Emissions (kg per PPP $ of GDP),0.27412415
+2016,Emissions (kg per PPP $ of GDP),0.261806418
+2017,Emissions (kg per PPP $ of GDP),0.247405756
+2018,Emissions (kg per PPP $ of GDP),0.242376979
+2019,Emissions (kg per PPP $ of GDP),0.22541602
+1960,Electricity Production (kWh per capita),4049.786629
+1961,Electricity Production (kWh per capita),4182.175501
+1962,Electricity Production (kWh per capita),4433.606021
+1963,Electricity Production (kWh per capita),4690.486256
+1964,Electricity Production (kWh per capita),4970.446456
+1965,Electricity Production (kWh per capita),5234.685002
+1966,Electricity Production (kWh per capita),5590.33374
+1967,Electricity Production (kWh per capita),5888.340915
+1968,Electricity Production (kWh per capita),6385.459329
+1969,Electricity Production (kWh per capita),6904.8338
+1970,Electricity Production (kWh per capita),7236.657043
+1971,Electricity Production (kWh per capita),7517.304646
+1972,Electricity Production (kWh per capita),8076.409269
+1973,Electricity Production (kWh per capita),8573.194154
+1974,Electricity Production (kWh per capita),8449.928456
+1975,Electricity Production (kWh per capita),8522.394003
+1976,Electricity Production (kWh per capita),8968.775655
+1977,Electricity Production (kWh per capita),9337.724018
+1978,Electricity Production (kWh per capita),9560.54541
+1979,Electricity Production (kWh per capita),9700.695386
+1980,Electricity Production (kWh per capita),9862.365497
+1981,Electricity Production (kWh per capita),9976.693715
+1982,Electricity Production (kWh per capita),9544.460943
+1983,Electricity Production (kWh per capita),9742.005714
+1984,Electricity Production (kWh per capita),10282.37464
+1985,Electricity Production (kWh per capita),10414.2079
+1986,Electricity Production (kWh per capita),10424.4273
+1987,Electricity Production (kWh per capita),10886.85826
+1988,Electricity Production (kWh per capita),11298.33251
+1989,Electricity Production (kWh per capita),11531.93231
+1990,Electricity Production (kWh per capita),11713.3317
+1991,Electricity Production (kWh per capita),12134.17213
+1992,Electricity Production (kWh per capita),12014.95825
+1993,Electricity Production (kWh per capita),12261.52378
+1994,Electricity Production (kWh per capita),12455.16217
+1995,Electricity Production (kWh per capita),12659.60763
+1996,Electricity Production (kWh per capita),12854.29891
+1997,Electricity Production (kWh per capita),12889.83228
+1998,Electricity Production (kWh per capita),13154.76303
+1999,Electricity Production (kWh per capita),13281.86998
+2000,Electricity Production (kWh per capita),13671.05202
+2001,Electricity Production (kWh per capita),13046.61415
+2002,Electricity Production (kWh per capita),13296.1823
+2003,Electricity Production (kWh per capita),13307.49201
+2004,Electricity Production (kWh per capita),13388.58971
+2005,Electricity Production (kWh per capita),13704.57705
+2006,Electricity Production (kWh per capita),13583.26696
+2007,Electricity Production (kWh per capita),13657.45283
+2008,Electricity Production (kWh per capita),13663.42797
+2009,Electricity Production (kWh per capita),12913.71469
+2010,Electricity Production (kWh per capita),13394.90276
+2011,Electricity Production (kWh per capita),13245.88193
+2012,Electricity Production (kWh per capita),12964.18794
+2013,Electricity Production (kWh per capita),13004.02357
+2014,Electricity Production (kWh per capita),12993.96558
+1960,Birth Rate (Per 1000 women),23.7
+1961,Birth Rate (Per 1000 women),23.3
+1962,Birth Rate (Per 1000 women),22.4
+1963,Birth Rate (Per 1000 women),21.7
+1964,Birth Rate (Per 1000 women),21.1
+1965,Birth Rate (Per 1000 women),19.4
+1966,Birth Rate (Per 1000 women),18.4
+1967,Birth Rate (Per 1000 women),17.8
+1968,Birth Rate (Per 1000 women),17.6
+1969,Birth Rate (Per 1000 women),17.9
+1970,Birth Rate (Per 1000 women),18.4
+1971,Birth Rate (Per 1000 women),17.2
+1972,Birth Rate (Per 1000 women),15.6
+1973,Birth Rate (Per 1000 women),14.8
+1974,Birth Rate (Per 1000 women),14.8
+1975,Birth Rate (Per 1000 women),14.6
+1976,Birth Rate (Per 1000 women),14.6
+1977,Birth Rate (Per 1000 women),15.1
+1978,Birth Rate (Per 1000 women),15
+1979,Birth Rate (Per 1000 women),15.6
+1980,Birth Rate (Per 1000 women),15.9
+1981,Birth Rate (Per 1000 women),15.8
+1982,Birth Rate (Per 1000 women),15.9
+1983,Birth Rate (Per 1000 women),15.6
+1984,Birth Rate (Per 1000 women),15.6
+1985,Birth Rate (Per 1000 women),15.8
+1986,Birth Rate (Per 1000 women),15.6
+1987,Birth Rate (Per 1000 women),15.7
+1988,Birth Rate (Per 1000 women),16
+1989,Birth Rate (Per 1000 women),16.4
+1990,Birth Rate (Per 1000 women),16.7
+1991,Birth Rate (Per 1000 women),16.2
+1992,Birth Rate (Per 1000 women),15.8
+1993,Birth Rate (Per 1000 women),15.4
+1994,Birth Rate (Per 1000 women),15
+1995,Birth Rate (Per 1000 women),14.6
+1996,Birth Rate (Per 1000 women),14.4
+1997,Birth Rate (Per 1000 women),14.2
+1998,Birth Rate (Per 1000 women),14.3
+1999,Birth Rate (Per 1000 women),14.2
+2000,Birth Rate (Per 1000 women),14.4
+2001,Birth Rate (Per 1000 women),14.1
+2002,Birth Rate (Per 1000 women),14
+2003,Birth Rate (Per 1000 women),14.1
+2004,Birth Rate (Per 1000 women),14
+2005,Birth Rate (Per 1000 women),14
+2006,Birth Rate (Per 1000 women),14.3
+2007,Birth Rate (Per 1000 women),14.3
+2008,Birth Rate (Per 1000 women),14
+2009,Birth Rate (Per 1000 women),13.5
+2010,Birth Rate (Per 1000 women),13
+2011,Birth Rate (Per 1000 women),12.7
+2012,Birth Rate (Per 1000 women),12.6
+2013,Birth Rate (Per 1000 women),12.4
+2014,Birth Rate (Per 1000 women),12.5
+2015,Birth Rate (Per 1000 women),12.4
+2016,Birth Rate (Per 1000 women),12.2
+2017,Birth Rate (Per 1000 women),11.8
+2018,Birth Rate (Per 1000 women),11.6
+2019,Birth Rate (Per 1000 women),11.4
+2020,Birth Rate (Per 1000 women),10.9
+1960,Life Expectancy,69.77073171
+1961,Life Expectancy,70.27073171
+1962,Life Expectancy,70.1195122
+1963,Life Expectancy,69.91707317
+1964,Life Expectancy,70.16585366
+1965,Life Expectancy,70.21463415
+1966,Life Expectancy,70.21219512
+1967,Life Expectancy,70.56097561
+1968,Life Expectancy,69.95121951
+1969,Life Expectancy,70.50731707
+1970,Life Expectancy,70.80731707
+1971,Life Expectancy,71.10731707
+1972,Life Expectancy,71.15609756
+1973,Life Expectancy,71.35609756
+1974,Life Expectancy,71.95609756
+1975,Life Expectancy,72.60487805
+1976,Life Expectancy,72.85609756
+1977,Life Expectancy,73.25609756
+1978,Life Expectancy,73.35609756
+1979,Life Expectancy,73.80487805
+1980,Life Expectancy,73.6097561
+1981,Life Expectancy,74.0097561
+1982,Life Expectancy,74.36097561
+1983,Life Expectancy,74.46341463
+1984,Life Expectancy,74.56341463
+1985,Life Expectancy,74.56341463
+1986,Life Expectancy,74.61463415
+1987,Life Expectancy,74.76585366
+1988,Life Expectancy,74.76585366
+1989,Life Expectancy,75.01707317
+1990,Life Expectancy,75.21463415
+1991,Life Expectancy,75.36585366
+1992,Life Expectancy,75.61707317
+1993,Life Expectancy,75.4195122
+1994,Life Expectancy,75.6195122
+1995,Life Expectancy,75.62195122
+1996,Life Expectancy,76.02682927
+1997,Life Expectancy,76.42926829
+1998,Life Expectancy,76.5804878
+1999,Life Expectancy,76.58292683
+2000,Life Expectancy,76.63658537
+2001,Life Expectancy,76.83658537
+2002,Life Expectancy,76.93658537
+2003,Life Expectancy,77.03658537
+2004,Life Expectancy,77.48780488
+2005,Life Expectancy,77.48780488
+2006,Life Expectancy,77.68780488
+2007,Life Expectancy,77.98780488
+2008,Life Expectancy,78.03902439
+2009,Life Expectancy,78.3902439
+2010,Life Expectancy,78.54146341
+2011,Life Expectancy,78.64146341
+2012,Life Expectancy,78.74146341
+2013,Life Expectancy,78.74146341
+2014,Life Expectancy,78.84146341
+2015,Life Expectancy,78.6902439
+2016,Life Expectancy,78.53902439
+2017,Life Expectancy,78.53902439
+2018,Life Expectancy,78.63902439
+2019,Life Expectancy,78.78780488
+2020,Life Expectancy,77.2804878
+1991,Gini Index,38
+1992,Gini Index,38.4
+1993,Gini Index,40.4
+1994,Gini Index,40
+1995,Gini Index,39.9
+1996,Gini Index,40.3
+1997,Gini Index,40.5
+1998,Gini Index,40
+1999,Gini Index,40
+2000,Gini Index,40.1
+2001,Gini Index,40.6
+2002,Gini Index,40.4
+2003,Gini Index,40.8
+2004,Gini Index,40.3
+2005,Gini Index,41
+2006,Gini Index,41.4
+2007,Gini Index,40.8
+2008,Gini Index,40.8
+2009,Gini Index,40.6
+2010,Gini Index,40
+2011,Gini Index,40.9
+2012,Gini Index,40.9
+2013,Gini Index,40.7
+2014,Gini Index,41.5
+2015,Gini Index,41.2
+2016,Gini Index,41.1
+2017,Gini Index,41.2
+2018,Gini Index,41.4
+2019,Gini Index,41.5
+1995,International Tourism Arrivals,79732000
+1996,International Tourism Arrivals,82756000
+1997,International Tourism Arrivals,82525000
+1998,International Tourism Arrivals,74767000
+1999,International Tourism Arrivals,75796000
+2000,International Tourism Arrivals,78343000
+2001,International Tourism Arrivals,70975000
+2002,International Tourism Arrivals,64434000
+2003,International Tourism Arrivals,62082000
+2004,International Tourism Arrivals,67606000
+2005,International Tourism Arrivals,71484000
+2006,International Tourism Arrivals,183178000
+2007,International Tourism Arrivals,175299000
+2008,International Tourism Arrivals,175703000
+2009,International Tourism Arrivals,160508000
+2010,International Tourism Arrivals,162275000
+2011,International Tourism Arrivals,147271421.9
+2012,International Tourism Arrivals,171629890.6
+2013,International Tourism Arrivals,179309906.3
+2014,International Tourism Arrivals,178311359.4
+2015,International Tourism Arrivals,176864531.3
+2016,International Tourism Arrivals,175261484.4
+2017,International Tourism Arrivals,174291750
+2018,International Tourism Arrivals,169324921.9
+2019,International Tourism Arrivals,165478000
+2020,International Tourism Arrivals,45037000
