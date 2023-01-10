@@ -1,0 +1,389 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    
+    
+    <!-- Title for the page -->
+    <title>Sam Jones Data Science</title>
+
+    <!-- Link to my style sheet -->
+    <link rel="stylesheet" href="design.css">
+
+    <link rel="icon" href="https://www.google.com/imgres?imgurl=http%3A%2F%2Fclipart-library.com%2Fimg1%2F1571270.png&imgrefurl=http%3A%2F%2Fclipart-library.com%2Feasy-globe-cliparts.html&tbnid=a-ZXUIL-RWn6IM&vet=12ahUKEwi6mI2j4ob8AhUQTRoKHb5bCN8QMygsegUIARDhAg..i&docid=JQUelH8bN2Zy7M&w=2400&h=2369&q=world%20globe%20&ved=2ahUKEwi6mI2j4ob8AhUQTRoKHb5bCN8QMygsegUIARDhAg">
+    
+
+    <!--The next three lines allow the Vega embed-->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+    
+</head>
+
+
+
+<body>
+    <!-- list of graphs used-->
+    <header class="primary-header flex">
+    
+        <header class="heading"><span class="black">Data</span><span class="white">Science<span class="gold">- Sam Jones</span></header>
+        
+        <button class="mobile-nav-toggle" data-visible="false">
+        </button>
+    
+        <nav>
+          <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+            <li class="active">
+              <a class="a-nav" href="https://samjones033.github.io/portfolio">Main Page</a>
+            </li>
+            <li>
+              <a class="a-nav" href="https://samjones033.github.io/project">Project</a>
+            </li>
+            <li>
+                <a class="a-nav" href="https://rapidcharts.io/datascience">Course Website</a>
+            </li>
+              <a class="a-nav" href="https://github.com/samjones033">Github</a>
+            </li>
+            <li>
+              
+          </ul>
+        </nav>
+      </header>
+    
+
+      <p class=title1><span class="bold">Week 1 - Getting Started</span></p>
+      <p class="text-center">The daily price of ethereum and the cumulative changes in population over 7 different countries</p>
+      <div class="container">
+        
+        <!--First graphs-->
+
+        <div class="chart" id="Vis1">
+            <script>
+              var myChart1 = "FDI.json";
+              vegaEmbed('#chart1', myChart1);
+            </script>
+          </div>
+
+          <div class="chart" id="Vis2">
+            <script>
+              var myChart2 = "womens_football.json";
+              vegaEmbed('#chart2', myChart2);
+            </script>
+          </div>
+      
+        </div>
+      
+
+        <p class=title1><span class="bold">Week 2 - IMF</span></p>
+
+        <p class="text-center">My third chart entails the outstanding credit levels of the IMF. A link to the original Financial Times artcicle can be found <a href="https://www.ft.com/content/eddedee3-669d-42cc-9597-33609a8bff99" style="color: rgb(21, 148, 221)" >here </a></p>   
+        <div class="container">
+        
+        <!--week 2 graph-->
+        
+
+            <div class="chart" id="Vis3">
+                <script>
+                    var myChart2 = "IMF.json";
+                    vegaEmbed('#chart3', myChart3);
+                </script>
+            </div>
+
+        </div>
+
+        <p class="text-center">However, when we consider the outstanding credit levels as a % of world GDP, our graph begins to look very different. As the IMF borrowed more in relation to GDP in 1984, this suggests it was riskier then and it would be more beneficial to borrow in 2022</p>
+        <div class="container">
+        
+            <!--week 2 graph number 2-->
+            
+    
+                <div class="chart" id="Vis4">
+                    <script>
+                        var myChart2 = "price vs volume.json";
+                        vegaEmbed('#chart4', myChart4);
+                    </script>
+                </div>
+    
+            </div>
+        
+        </div>
+        
+        <p class=title1><span class="bold">Week 3 - Inline Data Objects and Visual Encoding</span></p>
+
+        <p class="text-center">My chart for week 3 involves data that has been imported in using Python, and examines the inflation rate over the years in the UK. </a></p>   
+        <div class="container">
+
+            <!--week 3 graph number 2-->
+            
+    
+            <div class="chart" id="Vis6">
+                <script>
+                    var myChart6 = "myownchart.json";
+                    vegaEmbed('#chart6', myChart6);
+                </script>
+            </div>
+
+            <div class="chart" id="Vis7">
+                <script>
+                  var myChart7 = ".json";
+                  vegaEmbed('#chart7', myChart7);
+                </script>
+              </div>
+
+        </div>
+    
+        <p class=title1><span class="bold">Week 4</span></p>
+
+        <p class="text-center">My Week 4 chart involves data that I have scraped myself using an API. I chose this site as the data was readily available, up to date and easy to scrape. </a></p>   
+        <div class="container">
+
+            
+            
+    
+            <div class="chart" id="Vis8">
+                <script>
+                    var myChart8 = "carbonemmisions.json";
+                    vegaEmbed('#chart8', myChart8);
+                </script>
+            </div>
+
+            
+
+        </div>
+        <p class=title1><span class="bold">Week 5</span></p>
+
+        <p class="text-center">9 graphs that I have compiled using loops detailing CPI inflation rates. Source - ONS </a></p>   
+        <div class="container">
+            
+            <div class="chart" id="Vis9">
+                <script>
+                    var myChart9 = "drinkinflation.json";
+                    vegaEmbed('#chart9', myChart9);
+                </script>
+            </div>
+
+            <div class="chart" id="Vis10">
+                <script>
+                  var myChart10 = "alcocig.json";
+                  vegaEmbed('#chart10', myChart10);
+                </script>
+              </div>
+
+              <div class="chart" id="Vis12">
+                <script>
+                    var myChart12 = "number3.json";
+                    vegaEmbed('#chart12', myChart12);
+                </script>
+            </div>
+
+            <div class="chart" id="Vis13">
+                <script>
+                  var myChart13 = "number4.json";
+                  vegaEmbed('#chart13', myChart13);
+                </script>
+              </div>
+              <div class="chart" id="Vis14">
+                <script>
+                    var myChart14 = "number5.json";
+                    vegaEmbed('#chart14', myChart14);
+                </script>
+            </div>
+
+            <div class="chart" id="Vis15">
+                <script>
+                  var myChart15 = "number6.json";
+                  vegaEmbed('#chart15', myChart15);
+                </script>
+              </div>
+              <div class="chart" id="Vis16">
+                <script>
+                    var myChart16 = "number7.json";
+                    vegaEmbed('#chart16', myChart16);
+                </script>
+            </div>
+
+            <div class="chart" id="Vis17">
+                <script>
+                  var myChart17 = "number8.json";
+                  vegaEmbed('#chart17', myChart17);
+                </script>
+            </div>
+              
+            <div class="chart" id="Vis18">
+                <script>
+                  var myChart18 = "number9.json";
+                  vegaEmbed('#chart18', myChart18);
+                </script>
+            </div>  
+
+        <p class="text-center"> <a href="https://colab.research.google.com/drive/19k8lkWO1r_GJ6Mm27LlcdG1C2SWx7jqU" style="color: rgb(21, 148, 221)">Here</a> is a colab link to the code that was used for this</p> 
+
+
+        </div>
+
+        <p class=title1><span class="bold">Week 6 - READING WEEK</span></p>
+
+        <p class=title1><span class="bold">Week 7 - CHLOROPLETH MAP</span></p>
+
+        <p class="text-center">This is a base map of all the towns in Wales. The second map is chlorpleth map. </a></p>   
+        <div class="container">
+
+            <!--week 3 graph number 2-->
+            
+    
+            <div class="chart" id="Vis11">
+                <script>
+                    var myChart11 = "walesmap.json";
+                    vegaEmbed('#chart11', myChart11);
+                </script>
+            </div>
+
+        </div>
+
+        <p class=title1><span class="bold">Week 8 - Festival of Economics</span></p>
+
+        <p class="text-center">These graphs entail information from the "Prices and wages" talk regarding what % of workers work for money, and what % of energy the UK imports. </a></p>   
+        <div class="container">
+
+            <!--week 3 graph number 2-->
+            
+    
+            <div class="chart" id="Vis36">
+                <script>
+                    var myChart36 = "festival1.json";
+                    vegaEmbed('#chart36', myChart36);
+                </script>
+            </div>
+
+            <div class="chart" id="Vis37">
+                <script>
+                  var myChart37 = "festival2.json";
+                  vegaEmbed('#chart37', myChart37);
+                </script>
+              </div>
+        <p class="text-center">The data shows that recently more people are working for no pay, and the UK have recently started importing a lot more energy compared to when they exported between 1980 and 2000.</p>
+
+        </div>
+
+        <p class=title1><span class="bold">Week 9 - Advanced Chart</span></p>
+
+        <p class="text-center">Here I create 2 advanced charts that will be used also in my project.</p>   
+        <div class="container">
+
+            <div class="chart" id="Vis30">
+                <script>
+                    var myChart30 = "simple2.json";
+                    vegaEmbed('#chart30', myChart30);
+                </script>
+            </div>
+
+            <div class="chart" id="Vis31">
+                <script>
+                  var myChart31 = "colours2.json";
+                  vegaEmbed('#chart31', myChart31);
+                </script>
+              </div>
+        
+
+        </div>
+
+        <p class=title1><span class="bold">Week 10 - Machine Learning</span></p>
+
+        <div>
+            
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+        
+      
+      
+
+    
+</body>
+
+
+
+<script>
+    //Define charts:
+    var myChart1 = "FDI.json";
+    var myChart2 = "womens_football.json";
+    var myChart3 = "IMF.json";
+    var myChart4 = "updated.json"
+    var myChart5 = "myownchart.json"
+    var myChart6 = "inflation_bar.json"
+    var myChart7 = "inflation_line.json"
+    var myChart8 = "carbonemissions.json"
+    var myChart9 = "drinkinflation.json"
+    var myChart10 = "alcocig.json"
+    var myChart11 = "walesmap.json"
+    var myChart12 = "number3.json"
+    var myChart13 = "number4.json"
+    var myChart14 = "number5.json"
+    var myChart15 = "number6.json"
+    var myChart16 = "number7.json"
+    var myChart17 = "number8.json"
+    var myChart18 = "number9.json"
+    var myChart30 = "diffcountries.json"
+    var myChart36 = "festival1.json"
+    var myChart37 = "festival2.json"
+    var myChart30 = "simple2.json"
+    var myChart32 = "colours2.json"
+    // Embed charts:
+    vegaEmbed('#Vis1', myChart1);
+    vegaEmbed('#Vis2', myChart2);
+    vegaEmbed('#Vis3', myChart3);
+    vegaEmbed('#Vis4', myChart4);
+    vegaEmbed('#Vis5', myChart5);
+    vegaEmbed('#Vis6', myChart6);
+    vegaEmbed('#Vis7', myChart7);
+    vegaEmbed('#Vis8', myChart8);
+    vegaEmbed('#Vis9', myChart9);
+    vegaEmbed('#Vis10', myChart10);
+    vegaEmbed('#Vis11', myChart11);
+    vegaEmbed('#Vis12', myChart12);
+    vegaEmbed('#Vis13', myChart13);
+    vegaEmbed('#Vis14', myChart14);
+    vegaEmbed('#Vis15', myChart15);
+    vegaEmbed('#Vis16', myChart16);
+    vegaEmbed('#Vis17', myChart17);
+    vegaEmbed('#Vis18', myChart18);
+    vegaEmbed('#Vis30', myChart30);
+    vegaEmbed('#Vis36', myChart36);
+    vegaEmbed('#Vis37', myChart37);
+    vegaEmbed('#Vis30', myChart30);
+    vegaEmbed('#Vis31', myChart31)
+
+</script>
+
+<script>
+    //Define charts:
+    
+ 
+
+    // Embed charts:
+    
+    
+</script>
+
+</html>
+
+

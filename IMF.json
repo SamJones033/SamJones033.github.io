@@ -2,8 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "IMF Oustanding Credit Levels",
-    "subtitle": "The outstanding credit levels of the IMF from 1984 to 2022 - source: IMF",
-    "subtitleFontStyle": "italic",
+    "subtitle": "IMF outstanding credit levels from 1984 to 2022",
+    "subtitleFontStyle":"Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif",
     "subtitleFontSize": 10,
     "anchor": "start",
     "color": "black"
@@ -11,14 +11,21 @@
   "data": {
     "url": "https://raw.githubusercontent.com/SamJones033/SamJones033.github.io/main/data_IMF_creditOutstanding.csv"
   },
-  "height": 300,
-  "width": 360,
+  "height": 284,
+  "width": 250,
   "mark": {"type": "bar", "color": "#2b1d70"},
   "encoding": {
     "x": {
       "field": "Date",
       "type": "nominal",
-      "axis": {"title": null, "grid": false, "ticks": false, "labelAngle": 45}
+      "axis": {
+        "title": null,
+        "grid": false,
+        "ticks": false,
+        "labelAngle": 45
+        
+      }
+      
     },
     "y": {
       "field": "Totals",

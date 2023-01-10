@@ -1,0 +1,259 @@
+/* Background credit to Alison Quaglia*/
+
+body {
+    background: linear-gradient(-45deg,  #D9514EFF,#2A2B2DFF,#2DA8D8FF);
+    background-size: 200% 200%;
+    animation: gradient 18s ease infinite;
+    overflow-x: hidden;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+footer {
+    height: 100px
+}
+
+.heading {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px; 
+    font-weight: bold;
+    letter-spacing: 3px; 
+    line-height: 1;  
+    margin: 1rem;
+}
+
+iframe {
+    width: 805px;
+    height: 500px;
+    border: #ff0000 solid 5px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+p {
+    font-weight: 300;
+    color: gold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    width: 700px;
+    text-align: left;
+    margin: 0 auto;
+    max-width: min(90vw, 815px);
+}
+
+.text-center {
+    text-align: center;
+}
+
+a {
+    font-weight: 5px;
+    color: gold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+/*nav bar*/
+
+.flex {
+    display: flex;
+    gap: var(--gap, 2rem);
+}
+
+.primary-header {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.primary-navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0 30px 0 0;
+    --gap: 6.2em;
+}
+
+.a-nav {
+    text-decoration: none;
+    font-weight: 1px;
+    font-size: 20px;
+    color: gold;
+
+}
+
+.mobile-nav-toggle {
+    display: none;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+.cross {
+    position: absolute;
+    transform: translateX(500%);
+}
+
+.title1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gold;
+    font-size: 30px; 
+    line-height: 1; 
+    text-align: center;
+}
+
+.bold {
+    font-weight:500;
+}
+
+.black {
+    color: black;
+}
+
+.white {
+    color: white;
+}
+
+.gold{
+    color: gold;
+}
+
+#chart17 {
+    position: relative;
+    margin: auto 0 auto 0;
+}
+
+#chart24 {
+    visibility: hidden;
+    position: relative;
+    margin: auto 0 auto 0;
+}
+
+#chart25{
+    background-color: #001219;
+}
+
+.vega-bind-name {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 16px; 
+    font-weight: 300;
+}
+
+.chart { 
+    width: 400px;
+    height: 390px;
+    margin: 10px;
+    padding: 5px;
+    background-color: White;
+    border: #000000 solid 5px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10pxp;
+}
+
+.pngchart {
+    margin: 10px;
+    padding: 5px;
+    background-color: White;
+    border: #908e8e solid 5px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10pxp;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: left;
+}
+
+.pngchart img{
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1250px) {
+    #chart24 {
+        display: none;
+    }
+}
+@media (max-width: 990px) {
+    body {
+        overflow-x: hidden;
+    }
+    .heading {
+        font-size: 32px;
+    }
+    .chart {
+        width: 380px;
+    }
+    .title1 {
+        font-size: 15px;
+    }
+    .pngchart {
+        width: 390px;
+    }
+    #chart17 {
+        position: relative;
+        margin-top: auto;
+        right: auto;
+    }
+    /*nav bar*/
+    .primary-navigation {
+        position: fixed;
+        inset: 0 0 0 30%;
+        flex-direction: column;
+        --gap: 2em;
+
+        background: hsl(0 0% 0% / 0.8);
+
+        padding: 10em 2em;
+        z-index: 1000;
+
+        transform: translateX(115%);
+        transition: transform 350ms ease-in;
+    }
+
+    .primary-navigation[data-visible="true"] {
+        transform: translateX(15%);
+    }
+
+    @supports (backdrop-filter: blur(1rem)) {
+        .primary-navigation {
+            background: hsl(0 0% 0% / 0.5);
+            backdrop-filter: blur(1rem);
+        }
+    }
+
+    .mobile-nav-toggle {
+        display: block;
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        top: 1.5rem;
+        right: 2rem;
+        z-index: 9999;
+        border: 0;
+        background: url(hamburger.svg);
+        background-repeat: no-repeat;
+    }
+
+    .mobile-nav-toggle[data-visible="true"] {
+        background: url(cross.svg);
+        fill: #E9C46A;
+    }
+}

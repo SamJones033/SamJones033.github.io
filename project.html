@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    
+    
+    <!-- Title for the page -->
+    <title>Sam Jones Data Science</title>
+
+    <!-- Link to my style sheet -->
+    <link rel="stylesheet" href="project.css">
+
+    <link rel="icon" href="https://www.google.com/imgres?imgurl=http%3A%2F%2Fclipart-library.com%2Fimg1%2F1571270.png&imgrefurl=http%3A%2F%2Fclipart-library.com%2Feasy-globe-cliparts.html&tbnid=a-ZXUIL-RWn6IM&vet=12ahUKEwi6mI2j4ob8AhUQTRoKHb5bCN8QMygsegUIARDhAg..i&docid=JQUelH8bN2Zy7M&w=2400&h=2369&q=world%20globe%20&ved=2ahUKEwi6mI2j4ob8AhUQTRoKHb5bCN8QMygsegUIARDhAg">
+    
+
+    <!--The next three lines allow the Vega embed-->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+    
+</head>
+
+
+
+<body>
+    <!-- list of graphs used-->
+    <header class="primary-header flex">
+    
+        <header class="heading"><span class="black">Data</span><span class="white">Science<span class="gold">- Sam Jones</span></header>
+        
+        <button class="mobile-nav-toggle" data-visible="false">
+        </button>
+    
+        <nav>
+          <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+            <li class="active">
+              <a class="a-nav" href="https://samjones033.github.io">Main Page</a>
+            </li>
+            <li>
+              <a class="a-nav" href="project.html">Project</a>
+            </li>
+            <li>
+                <a class="a-nav" href="https://rapidcharts.io/datascience">Course Website</a>
+            </li>
+              <a class="a-nav" href="https://github.com/samjones033">Github</a>
+            </li>
+            <li>
+              
+          </ul>
+        </nav>
+      </header>
+    
+
+      <p class=title1><span class="bold">Are we on the brink of another global recession?</span></p>
+      <p class="text-center">I've got a question for you: have you been feeling a little uneasy about the state of the world economy lately? If so, you're not alone. In fact, many experts believe that we're teetering on the edge of a global recession. Changes in leadership, Covid and Brexit are just a few of the challenges we have had to face over the past few years. It feels like one thing has led to another, but when do we have to sit down and worry about the state of the world economy? </p>
+      <div class="container">
+
+        <p class="text-center">The G7 countries (United States, Canada, Germany, France, Italy, Japan, and the United Kingdom) are among the largest and most influential economies in the world. When the economies of these countries are doing well, it is generally a positive sign for the global economy. On the other hand, if the economies of the G7 countries are experiencing a downturn, it can be a sign that the global economy is heading into a recession. Here, it is clear to see that the USA has had a constant trend on increasing consumption. However, this is not as much of a case for the other G7 countries. Consumption has been relatively stagnant for the past few years, which is a possible factor as to why a global recession could be on its way. </p>
+
+      
+
+        
+            <!--First graphs-->
+    
+            <div class="chart" id="Vis19">
+                <script>
+                  var myChart19 = "project2.json";
+                  vegaEmbed('#chart19', myChart19);
+                </script>
+         </div>
+    </div>
+    <p class="text-center">I compiled this data by user a scraper for world bank data to convert into an API. I utilised the loop feature in order to get the countries of my choice. The only error I faced here was when I incorrectly labelled Germany as "GER" opposed to it's correct form as "DEU". After I had noticed this error then the code worked as it should.</p>
+    <p class=title1><span class="bold">Week 2 - IMF</span></p>
+
+        <p class="text-center">USING USA AS A BASE REFERENCE</p>   
+        <div class="container">
+        
+        <!--week 2 graph-->
+        
+
+            <div class="chart" id="Vis20">
+                <script>
+                    var myChart20 = "usainflation.json";
+                    vegaEmbed('#chart20', myChart20);
+                </script>
+            </div>
+
+    </div>
+
+    <p class=title1><span class="bold">scatter plot</span></p>
+
+      <p class="text-center">scatter plot</p>   
+      <p class="text-center">One difficulty I faced here was that some variable names for countries such as the USA were different between each data set that I used ("The United States" vs "The United States of America" for example). I overcame this by cleaning the data in order to ensure all variable names matched so the code work. There is also the issue of missing data for some central African countries which I was unable to find data for.</p> 
+      <div class="container">
+      
+      <!--week 2 graph-->
+      
+
+          <div class="chart" id="Vis21">
+              <script>
+                  var myChart21 = "worldmap.json";
+                  vegaEmbed('#chart21', myChart21);
+              </script>
+          </div>
+    </div>
+
+
+    <div>
+      <p class=title1><span class="bold">scatter plot</span></p>
+
+      <p class="text-center">I have next used inflation data and total GDP data for a random selection of countries to attmept to analyse whether the size of a country effects the amount it is able to grow. There is a substantial variation which can be shown in the 0.06 R² value. However, we can see that with countries such as Belize and Ireland, that it is likely that smaller countries are to have higher inflation rates. By reversing this, this can tell us that larger economies, such as Japan, have lower inflation rates. This suggets that bigger economies are less susceptible to uncontrollable inflation. As discussed previously, we know the G7 "bigger" countries have a greater influence on world markets; so this suggests against there being a global recession any time soon.</p>   
+      
+      <p class="text-center">This graph was encoded by data scraping the World Bank and then converted into an API. This APi was then used to create the graph. I have included a key for different continents as well as the ability to hover over a point to see the country, total GDP and inflation rate. I have also encoded a line of best fit through the data.</p>
+      
+      <div class="container">
+      
+      <!--week 2 graph-->
+      
+
+          <div class="chart" id="Vis28">
+              <script>
+                  var myChart28 = "simple.json";
+                  vegaEmbed('#chart28', myChart28);
+              </script>
+          </div>
+    </div>
+
+    <div>
+      <p class=title1><span class="bold">scatter plot</span></p>
+
+      <p class="text-center">Happiness and economic growth are often thought to be correlated, but the relationship between the two is complex and can vary depending on a number of factors. Some research suggests that as countries become wealthier, their citizens tend to become happier, at least up to a certain point. This relationship is often referred to as the <a href="https://www.iza.org/publications/dp/13923/the-easterlin-paradox" style="color: rgb(21, 148, 221)" >Easterlin Paradox </a>, named after economist Richard Easterlin, who first identified it.</p>   
+      
+      <p class="text-center">The graph I have created shows the relationship between the GDP per capita and the Happiness Index Score of the 50 "happiest" countries in the world. The happiness data was retrieved by data scraping a PDF from the World Happiness Report using python. The GDP per capita data was taken from the World Bank. I have also included population data which is shown by the size of the individual bubbles. It clear to see that, based on this data, the "happier" the country, the higher GDP per capita. This raises a possible argument that happiness correlates with GDP, meaning that, on a grander scale, should focus on health and wellbeing be of more importance, then countries will prosper hence reducing the risk of a global recession.</p>
+      
+      <div class="container">
+      
+      <!--week 2 graph-->
+      
+
+          <div class="chart" id="Vis29">
+              <script>
+                  var myChart29 = "colours.json";
+                  vegaEmbed('#chart29', myChart29);
+              </script>
+          </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+  
+
+  
+
+      
+
+  
+  
+          
+</body>
+
+
+<script>
+var myChart0 = "continentchart.json"
+var myChart19 = "project2.json"
+var myChart20 = "usainflation.json"
+var myChart21 = "worldmap.json"
+var myChart28 = "simple.json"
+var myChart29 = "colours.json"
+
+
+
+ // Embed charts:
+vegaEmbed('#Vis19', myChart19);
+vegaEmbed('#Vis20', myChart20);
+vegaEmbed('#Vis21', myChart21);
+vegaEmbed('#Vis0', myChart0);
+vegaEmbed('#Vis28', myChart28);
+vegaEmbed('#Vis29', myChart29)
+
+
+
+
+
+</script>
+
+</html>
+
+
+
+
+
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    
+    
+    <!-- Title for the page -->
+    <title>Sam Jones Data Science</title>
+
+    <!-- Link to my style sheet -->
+    <link rel="stylesheet" href="design.css">
+
+    <link rel="icon" href="https://www.google.com/imgres?imgurl=http%3A%2F%2Fclipart-library.com%2Fimg1%2F1571270.png&imgrefurl=http%3A%2F%2Fclipart-library.com%2Feasy-globe-cliparts.html&tbnid=a-ZXUIL-RWn6IM&vet=12ahUKEwi6mI2j4ob8AhUQTRoKHb5bCN8QMygsegUIARDhAg..i&docid=JQUelH8bN2Zy7M&w=2400&h=2369&q=world%20globe%20&ved=2ahUKEwi6mI2j4ob8AhUQTRoKHb5bCN8QMygsegUIARDhAg">
+    
+
+    <!--The next three lines allow the Vega embed-->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+    
+</head>
+
+<body>
+    <!-- list of graphs used-->
+    <header class="primary-header flex">
+    
+        <header class="heading"><span class="black">Data</span><span class="white">Science<span class="gold">- Sam Jones</span></header>
+        
+        <button class="mobile-nav-toggle" data-visible="false">
+        </button>
+    
+        <nav>
+          <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+            <li class="active">
+              <a class="a-nav" href="https://samjones033.github.io">Main Page</a>
+            </li>
+            <li>
+              <a class="a-nav" href="project.html">Project</a>
+            </li>
+            <li>
+                <a class="a-nav" href="https://rapidcharts.io/datascience">Course Website</a>
+            </li>
+              <a class="a-nav" href="https://github.com/samjones033">Github</a>
+            </li>
+            <li>
+              
+          </ul>
+        </nav>
+    </header>
+
+    <p class=title1><span class="bold">Are we on the brink of another global recession?</span></p>
+      <p class="text-center">I've got a question for you: have you been feeling a little uneasy about the state of the world economy lately? If so, you're not alone. In fact, many experts believe that we're teetering on the edge of a global recession. Changes in leadership, Covid and Brexit are just a few of the challenges we have had to face over the past few years. It feels like one thing has led to another, but when do we have to sit down and worry about the state of the world economy? </p>
+      <div class="container">
+
+        
+            <!--First graphs-->
+    
+            <div class="myChart69" id="myChart69">
+                <script>
+                  var myChart69 = "continentchart.json";
+                  vegaEmbed('#myChart69', myChart69);
+                </script>
+         </div>
+    </div>
+
+
+
+
