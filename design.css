@@ -232,6 +232,7 @@ a:hover {
         right: 2rem;
         z-index: 9999;
         border: 0;
+        background: url(hamburger.svg);
         background-repeat: no-repeat;
     }
 
