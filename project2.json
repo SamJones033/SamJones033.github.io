@@ -20,7 +20,7 @@
       "field": "date",
       "type": "temporal",
       "title": "Year",
-      "scale": {"domain": ["1972", "2020"]}
+      "scale": {"domain": ["1972", "2021"]}
     },
     "y": {
       "field": "value",
